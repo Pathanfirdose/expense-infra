@@ -8,7 +8,7 @@ terraform {
 
   backend "s3" {
     bucket = "jenkins-remote-state-dev"
-    key    = "expense-vpc"
+    key    = "expense-cdn"
     region = "us-east-1"
     dynamodb_table = "jenkins-table"
   }
